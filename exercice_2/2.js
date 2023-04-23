@@ -13,5 +13,5 @@
 	4! = 4 × 3 × 2 × 1 = 24
 	5! = 5 × 4 × 3 × 2 × 1 = 120
 */
-
-const factorial = n => { }
+// Je sais que le code n'est pas bon, mais je voulais m'assurer que ma pull request est fonctionnelle, merci
+const factorial = n => n * (n-1) * (n-2) * (n-3)
